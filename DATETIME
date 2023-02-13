@@ -1,0 +1,29 @@
+DELAY 500
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 500
+STRING cd %userprofile%\desktop
+DELAY 500
+ENTER
+DELAY 500
+STRING echo.> newfile.txt
+DELAY 500
+ENTER
+DELAY 500
+GUI r
+DELAY 500
+STRING notepad newfile.txt
+DELAY 500
+ENTER
+DELAY 500
+STRING Current date and time: %date% %time%
+DELAY 500
+ENTER
+DELAY 500
+CTRL s
+DELAY 500
+ALT f4
+DELAY 500
